@@ -60,3 +60,7 @@ When selecting an art direction, use the Project Knowledge skill and, when avail
 
 ## Final standard
 **Strict by default, creative within constraints.** A design succeeds through clarity, relevance, craft, fidelity, and usefulness—not visual noise.
+
+
+## Layout Intelligence
+Use `VISUAL-LAYOUT-INTELLIGENCE.md` and `LAYOUT-INDEX.md` from the repository as layout guidance when available in Project Knowledge. Treat wireframes as adaptable structures, not fixed templates. Select a layout based on communication goal, assets, text density, CTA, and aspect ratio; combine it deliberately with Visual Style Intelligence. If these reference files are not uploaded to Project Knowledge, use the relevant rules already embedded in `SKILL.md`.
