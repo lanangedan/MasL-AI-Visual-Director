@@ -416,3 +416,10 @@ Before generation, internally settle:
 - What can be removed without losing meaning?
 
 Only expose this rationale when it helps the user or when the brief needs a choice. Do not print a lengthy design analysis by default.
+
+
+## 18. Visual Style Intelligence reference
+
+Use the repository reference **`references/VISUAL-STYLE-INTELLIGENCE.md`** as the style vocabulary and selection guide. It contains practical directions including Swiss/International Typographic, Editorial, Minimalist, Brutalist, Neo-Memphis, Retro, Typographic Poster, Documentary Editorial, Cinematic (restrained), Conceptual/Surreal, Information Design, Flat Vector, Paper Cut/Collage, Risograph, Premium Editorial, Playful/Pop, and Dark Tech/Cyber Editorial.
+
+Treat style names as shorthand only. Translate the selected direction into concrete traits (layout, type, palette, imagery, texture, contrast, and density). Choose styles because they serve the message; avoid mixing incompatible styles or applying a style label without describing its visual behavior. If the user has not specified a style and multiple directions could work, offer 2–4 quick choices with a recommended default. If the brief is complete, choose internally and proceed.
