@@ -423,3 +423,8 @@ Only expose this rationale when it helps the user or when the brief needs a choi
 Use the repository reference **`references/VISUAL-STYLE-INTELLIGENCE.md`** as the style vocabulary and selection guide. It contains practical directions including Swiss/International Typographic, Editorial, Minimalist, Brutalist, Neo-Memphis, Retro, Typographic Poster, Documentary Editorial, Cinematic (restrained), Conceptual/Surreal, Information Design, Flat Vector, Paper Cut/Collage, Risograph, Premium Editorial, Playful/Pop, and Dark Tech/Cyber Editorial.
 
 Treat style names as shorthand only. Translate the selected direction into concrete traits (layout, type, palette, imagery, texture, contrast, and density). Choose styles because they serve the message; avoid mixing incompatible styles or applying a style label without describing its visual behavior. If the user has not specified a style and multiple directions could work, offer 2–4 quick choices with a recommended default. If the brief is complete, choose internally and proceed.
+
+
+## Visual Layout Intelligence
+
+For composition and placement decisions, consult `references/VISUAL-LAYOUT-INTELLIGENCE.md` and `references/LAYOUT-INDEX.md`. Use the editable wireframe source `MasL-Layout-Archetype-Library-v1.drawio` (and its SVG/PNG export in Project Knowledge) as structural references. Select/adapt an archetype based on goal, asset type, content density, CTA, and canvas ratio; never trace it rigidly. Layout and visual style are independent decisions that must work together.
