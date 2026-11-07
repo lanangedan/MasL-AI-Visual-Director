@@ -1,112 +1,124 @@
 # Visual Layout Intelligence
 
 > MasL-AI-Visual-Director · Layout decision system  
-> Version 1.0 · Initial archetypes derived from user-supplied layout references
+> Version 2.0 · 21 archetypes
 
 ## Purpose
 
-Use layout as a deliberate communication decision—not a fixed template. Choose and adapt a wireframe based on the message, audience, content density, visual asset, and intended action.
-
-The wireframes in the companion Layout Archetype Library are **structural references only**. They do not prescribe color, illustration style, typography, or finished artwork.
+Choose layout as a communication decision—not a decorative template. Match structure to message, audience, visual assets, information density, action, and canvas. Archetype IDs and names correspond to `MasL-Layout-Archetype-Library-21.drawio` and `LAYOUT-INDEX.md`.
 
 ## Core principles
 
-1. **One primary focal point.** A layout should make the intended first point of attention unmistakable.
-2. **Message before decoration.** Reserve space and hierarchy for the information that matters.
-3. **Visual Hook is flexible.** It can be a product, person, illustration, photograph, typographic treatment, metaphor, or data visualization.
-4. **Hierarchy is not equal sizing.** Headline, visual, supporting copy, and CTA should have distinct roles and relative prominence.
-5. **Adapt, do not trace blindly.** Wireframes are starting points; change proportions, positions, or omit blocks when the brief calls for it.
-6. **Content earns its space.** Do not add logo, footer, CTA, description, or secondary visuals when they are not required.
-7. **Protect readability.** Avoid narrow text columns and overcrowded information blocks; simplify or recommend external typesetting when copy is long.
+1. **One primary focal point.** Make the first point of attention unmistakable.
+2. **Message before decoration.** Reserve space for the information that matters.
+3. **Visual Hook is flexible.** It can be a product, person, illustration, photograph, metaphor, typography, or data visualization.
+4. **Hierarchy is not equal sizing.** Headline, visual, supporting copy, and CTA need distinct roles.
+5. **Adapt, do not trace blindly.** Change proportions, positions, or omit blocks when the brief calls for it.
+6. **Content earns its space.** Do not add logos, footers, CTAs, descriptions, or secondary visuals without a purpose.
+7. **Protect readability.** Avoid narrow columns and overcrowded blocks; simplify or recommend external typesetting for long copy.
 8. **Preserve asset integrity.** Supplied logos, product images, and identity references must not be redrawn or altered without permission.
-9. **Respect the output canvas.** Reflow for the requested aspect ratio and viewing context; do not stretch a layout across incompatible proportions.
-10. **No pseudo-content.** Never invent factual copy, prices, specifications, logos, or labels to fill empty blocks.
+9. **Respect the canvas.** Recompose for the requested ratio; never stretch a layout mechanically.
+10. **No pseudo-content.** Never invent factual copy, prices, specifications, logos, or labels to fill space.
 
-## Layout archetypes (v1)
+## Archetype decision map (LA-01–LA-21)
 
-### LA-01 — Poster / Hero Visual
-- **Structure:** Headline at top → large dominant visual → subheadline → compact supporting description/footer.
-- **Best for:** Awareness posters, campaign posters, event announcements, one-message educational posters.
-- **Hierarchy:** Headline and hero visual lead; supporting information is secondary.
-- **Watch-outs:** Avoid placing too much copy below the visual or shrinking the hero unnecessarily.
+| ID | Archetype | Choose when | Main caution |
+|---|---|---|---|
+| LA-01 | Poster / Hero Visual | One strong message and one dominant visual | Supporting copy must not shrink the hero |
+| LA-02 | Educational / Info Poster | Several related facts explain one concept | Side facts must remain readable |
+| LA-03 | Product Ad / Center Hero | Product silhouette/appearance is the main selling point | Side details cannot compete with product |
+| LA-04 | Food / Promo Visual | Appetite, offer, or food item drives action | Keep price/CTA easy to find; food believable |
+| LA-05 | Editorial / Multi-Visual | Multiple scenes or ideas need a visual reading sequence | Avoid collage without progression |
+| LA-06 | Split Hero / Side Copy | A hero subject and explanatory copy need equal but distinct zones | Balance zones; avoid cramped copy |
+| LA-07 | Top Visual / Bottom Info | Image should attract first, details follow below | Bottom band must not become dense |
+| LA-08 | Center Hero / Framing | A central subject benefits from framing/supporting elements | Framing must not obscure the hero |
+| LA-09 | Headline + Visual + Two Details | Exactly two key facts/benefits support the hero | Keep the two detail blocks distinct |
+| LA-10 | Alternating Visual / Text | Sequential points or a short visual narrative | Establish clear reading order |
+| LA-11 | Info Grid / Central Message | Several modular facts orbit a central message | Grid should not fragment the core idea |
+| LA-12 | Typographic Statement | The words themselves are the main visual impact | Typography must be legible, intentional, and exact |
+| LA-13 | Headline / Visual / Description | Straightforward headline, one visual, short explanation | Avoid unnecessary sections |
+| LA-14 | Logo + Headline + Hero | Brand identity is required and supplied/approved | Preserve logo fidelity and give it proper scale |
+| LA-15 | Headline + Central Visual + Side Details | Central object/concept needs multiple annotations | Side labels need breathing room |
+| LA-16 | Headline + Visual + Detail Grid | Hero plus several compact features/specs | Reduce detail count before reducing type size |
+| LA-17 | Headline + Central Illustration | A metaphor or illustration can explain the concept | Illustration should clarify, not merely decorate |
+| LA-18 | Educational Three-Column | Three categories, stages, or comparison points are meaningful | Columns need parallel structure and concise copy |
+| LA-19 | Logo + Top Copy + Hero + Footer | Branded message requires top framing and closing CTA/info | Do not overpopulate both top and footer |
+| LA-20 | Header + Hero + Device Showcase | App, website, or software needs a device/screen presentation | Screens should be plausible; avoid fake UI text |
+| LA-21 | Header + Visual + Footer (Clean) | Minimal composition with one visual and compact support | Keep whitespace purposeful; avoid adding blocks |
 
-### LA-02 — Educational / Information Poster
-- **Structure:** Headline → claim/subheadline → central visual → supporting facts around or beside it → CTA/footer.
-- **Best for:** Public education, health/safety awareness, explainers, simple information graphics.
-- **Hierarchy:** Central visual connects the topic; supporting facts remain clearly grouped and scannable.
-- **Watch-outs:** Do not make side labels too narrow. For dense content, use a grid or fewer facts rather than tiny text.
+## Selection algorithm (use in this order)
 
-### LA-03 — Product Ad / Center Hero
-- **Structure:** Logo (optional) → headline → product hero centered or dominant → concise details on sides → price/CTA/footer.
-- **Best for:** Product advertisements, feature announcements, product-focused promotional graphics.
-- **Hierarchy:** Product image is the hero; headline and offer are next.
-- **Watch-outs:** Keep product silhouette clear. Side details must not compete with the product.
+### 1. Communication goal
+- Awareness / one-message campaign → LA-01 or LA-21
+- Explain several related facts → LA-02, LA-11, LA-16, or LA-18
+- Sell/introduce product → LA-03, LA-08, LA-15; food/offer → LA-04
+- Narrative or several scenes → LA-05 or LA-10
+- Strong quote/opinion → LA-12
+- App/site/software → LA-20
+- Brand-led announcement → LA-14 or LA-19
 
-### LA-04 — Food / Promo Visual
-- **Structure:** Headline and promise → food/product hero → description or price block → CTA/contact/footer.
-- **Best for:** Food promotions, menu highlights, restaurant offers, product promos.
-- **Hierarchy:** Appetite/appeal visual and offer should be immediately visible.
-- **Watch-outs:** Do not bury price or CTA. Keep food photography believable and visually clean.
+### 2. Asset shape
+- One hero asset → LA-01, LA-03, LA-07, LA-13, LA-21
+- Subject with copy beside it → LA-06
+- Central subject with annotations → LA-08 or LA-15
+- Multiple distinct assets → LA-05 or LA-10
+- No supplied visual → select a purposeful visual hook; LA-17 is useful for conceptual explanation
 
-### LA-05 — Editorial / Multi-Visual
-- **Structure:** Headline → asymmetric grid of multiple visual and text blocks → payoff visual or conclusion → footer/CTA.
-- **Best for:** Editorial graphics, explainers, feature summaries, narrative-led visual communication.
-- **Hierarchy:** Headline establishes topic; visual blocks create progression; final block resolves or reinforces message.
-- **Watch-outs:** Multiple visuals must form a clear reading order, not a collage without purpose.
+### 3. Content structure and density
+- One short message → LA-12 or LA-21
+- Headline + one visual + short explanation → LA-13
+- Exactly two benefits/facts → LA-09
+- Several modular facts → LA-02, LA-11, or LA-16
+- Three parallel categories/stages → LA-18
+- Sequential narrative → LA-10
+- Dense content → group, prioritize, or remove copy; do not force tiny text into a single image
 
-## Selection logic
+### 4. CTA / required information
+- Offer/action must be prominent → reserve an explicit CTA zone; LA-04 or LA-19 may help
+- Brand identity is required → LA-14 or LA-19, only with a supplied/approved logo
+- Informational only → omit CTA/footer if unnecessary
 
-Choose an archetype using this order:
+### 5. Canvas and placement
+Recompose layout for portrait, square, or landscape. Preserve hierarchy and reading order; do not scale narrow columns into illegibility. Account for platform crop and safe margins.
 
-1. **Primary communication goal**
-   - Awareness / one strong message → LA-01
-   - Explain several related points → LA-02
-   - Sell or introduce a product → LA-03 or LA-04
-   - Tell a visual story or combine several scenes → LA-05
-2. **Asset type**
-   - One hero photo/product/illustration → hero-centered structure
-   - Several distinct visuals → editorial/grid structure
-   - No supplied visual → design a purposeful visual hook, not generic decoration
-3. **Text density**
-   - Low → generous whitespace and large visual
-   - Medium → one or two supporting blocks
-   - High → reduce copy, group information, or recommend separate typesetting; do not force everything into one image
-4. **Required action**
-   - CTA/offer must be prominent → reserve a clear CTA zone
-   - Informational only → footer may be omitted
-5. **Canvas**
-   - Recompose for the actual ratio and platform; never stretch blocks mechanically.
+## Hybrid layouts
+
+Use a hybrid only if:
+- two archetypes solve distinct needs that one cannot;
+- the combination has a clear reading order and single focal point;
+- blocks are not duplicated merely for decoration.
+
+State the hybrid internally as IDs (e.g. LA-06 + LA-13); do not expose archetype jargon unless it helps the user.
 
 ## Adaptation checklist
 
-Before generating, internally confirm:
+Before generation, confirm internally:
 - What is the single core message?
 - What should viewers notice first, second, and third?
 - What is the Visual Hook and why does it communicate the message?
 - Which copy is mandatory, optional, or unnecessary?
-- Is there a logo/product/face asset that needs fidelity?
+- Is there a logo/product/face asset requiring fidelity?
 - Does the layout fit the requested aspect ratio and viewing size?
 - Is text density realistic for one image?
-- Is there any block that exists only as decoration?
+- Is any block present only as decoration?
 
-Ask the user only when a missing choice materially changes the design. Otherwise select a suitable archetype and proceed.
+Ask only when a missing choice materially changes the design. Otherwise choose and proceed.
 
 ## Relationship to Visual Style Intelligence
 
-Layout and visual style are separate but coordinated decisions:
 - **Layout** determines placement, hierarchy, grouping, and reading order.
 - **Style** determines visual language: shapes, texture, color behavior, typography character, rendering, and mood.
-
-Select both to serve the brief. Do not assume a style implies a single layout or combine incompatible visual languages without a reason.
+- Select both to serve the brief. Do not assume a style implies a single layout or combine incompatible visual languages without reason.
 
 ## QA after generation
 
 Check:
 - focal point and hierarchy are clear at intended viewing size;
-- layout blocks have sensible proportions and spacing;
+- blocks have sensible proportions and spacing;
 - text is accurate and legible;
-- no accidental pseudo-text or filler elements;
+- no pseudo-text or filler elements;
 - supplied assets are respected;
-- the composition is balanced and the reading order is intentional.
+- composition is balanced and reading order is clear;
+- canvas ratio and safe margins fit the intended platform.
 
-Revise only the failing element(s), preserving what already works.
+Revise material defects before presenting the design as final. Be candid about limitations.
