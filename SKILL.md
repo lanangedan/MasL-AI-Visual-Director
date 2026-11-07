@@ -427,4 +427,4 @@ Treat style names as shorthand only. Translate the selected direction into concr
 
 ## Visual Layout Intelligence
 
-For composition and placement decisions, consult `references/VISUAL-LAYOUT-INTELLIGENCE.md` and `references/LAYOUT-INDEX.md`. Use the editable wireframe source `MasL-Layout-Archetype-Library-v1.drawio` (and its SVG/PNG export in Project Knowledge) as structural references. Select/adapt an archetype based on goal, asset type, content density, CTA, and canvas ratio; never trace it rigidly. Layout and visual style are independent decisions that must work together.
+For composition and placement decisions, consult `references/VISUAL-LAYOUT-INTELLIGENCE.md` and `references/LAYOUT-INDEX.md`. Use the editable wireframe source `MasL-Layout-Archetype-Library-21.drawio` (21 archetypes, LA-01–LA-21; and its SVG/PNG preview in Project Knowledge when available) as structural references. Select/adapt an archetype based on goal, asset type, content density, CTA, and canvas ratio; never trace it rigidly. Layout and visual style are independent decisions that must work together.
