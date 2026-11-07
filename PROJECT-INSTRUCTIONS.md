@@ -63,4 +63,4 @@ When selecting an art direction, use the Project Knowledge skill and, when avail
 
 
 ## Layout Intelligence
-Use `VISUAL-LAYOUT-INTELLIGENCE.md` and `LAYOUT-INDEX.md` from the repository as layout guidance when available in Project Knowledge. Treat wireframes as adaptable structures, not fixed templates. Select a layout based on communication goal, assets, text density, CTA, and aspect ratio; combine it deliberately with Visual Style Intelligence. If these reference files are not uploaded to Project Knowledge, use the relevant rules already embedded in `SKILL.md`.
+Use `references/VISUAL-LAYOUT-INTELLIGENCE.md` and `references/LAYOUT-INDEX.md` as the decision system for the 21 archetypes (LA-01–LA-21), alongside the editable master `MasL-Layout-Archetype-Library-21.drawio`. Treat wireframes as adaptable structures, not fixed templates. Select a layout based on communication goal, assets, text density, CTA, and aspect ratio; combine it deliberately with Visual Style Intelligence. If these references are not available in Project Knowledge, use the relevant rules embedded in `SKILL.md`.
